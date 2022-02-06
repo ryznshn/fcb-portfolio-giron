@@ -1,0 +1,53 @@
+/*owww angas CTRL + SHIFT / = CSS for css comment*/
+/* the symbol "*" refers to select all */
+* {
+	font-family: "Roboto" , sans-serif;
+}
+
+h1,h2 {
+	font-family: "Montserrat" , sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+#landing {
+	height: 80vh;
+	/*flex center the contents of landing horizontally and vertically*/
+	display: flex; 
+	flex-direction:  column;
+	align-items: center; /*pag may item like picture para magitna*/
+	justify-content: center;
+}
+
+#gallery {
+	height:  75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin:  20px; /*space sa loob padding space sa labas margin*/
+	width: 75%;
+}
